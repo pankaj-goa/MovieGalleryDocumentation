@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MoviesListViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/MoviesListViewController" class="dashAnchor"></a>
+    <a title="MoviesListViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">MovieGalleryAssignment Docs</a> (27% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">MovieGalleryAssignment Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        MoviesListViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ApiClass.html">ApiClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListGenres.html">ListGenres</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListTrailer.html">ListTrailer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MovieDetailsViewController.html">MovieDetailsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MoviesDetailsViewModel.html">MoviesDetailsViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MoviesListViewController.html">MoviesListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MoviesListViewModel.html">MoviesListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RealmInt.html">RealmInt</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:22MovieGalleryAssignment9APIErrorsO">APIErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:22MovieGalleryAssignment9PageErrorO">PageError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISearchBar.html">UISearchBar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>MoviesListViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">MoviesListViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">MoviesListViewController</span><span class="p">:</span> <span class="kt">UITableViewDelegate</span><span class="p">,</span> <span class="kt">UITableViewDataSource</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">MoviesListViewController</span><span class="p">:</span> <span class="kt">UISearchBarDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>Controller class for movie listing page</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment24MoviesListViewControllerC14setupSearchBar33_D90F3FEF8FB78BBFA52879C3FF63AB9ALLyyF"></a>
+                    <a name="//apple_ref/swift/Method/setupSearchBar()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment24MoviesListViewControllerC14setupSearchBar33_D90F3FEF8FB78BBFA52879C3FF63AB9ALLyyF">setupSearchBar()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the properties for UISearchBar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">setupSearchBar</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment24MoviesListViewControllerC14setUpObservers33_D90F3FEF8FB78BBFA52879C3FF63AB9ALLyyF"></a>
+                    <a name="//apple_ref/swift/Method/setUpObservers()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment24MoviesListViewControllerC14setUpObservers33_D90F3FEF8FB78BBFA52879C3FF63AB9ALLyyF">setUpObservers()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this function to add subscribers.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+<pre class="highlight swift"><code> <span class="k">self</span><span class="o">.</span><span class="nf">setUpObservers</span><span class="p">()</span>
+
+ <span class="kd">private</span> <span class="kd">func</span> <span class="nf">setUpObservers</span><span class="p">()</span> <span class="p">{</span>
+     <span class="n">viewModel</span><span class="o">.</span><span class="n">isLoadingObservable</span>
+     <span class="o">.</span><span class="nf">subscribe</span><span class="p">(</span><span class="nv">onNext</span><span class="p">:</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="n">isLoading</span> <span class="k">in</span>
+         <span class="k">if</span> <span class="n">isLoading</span> <span class="p">{</span>
+             <span class="k">self</span><span class="p">?</span><span class="o">.</span><span class="nf">showProgressLoader</span><span class="p">()</span>
+         <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+             <span class="k">self</span><span class="p">?</span><span class="o">.</span><span class="nf">hideProgressLoader</span><span class="p">()</span>
+         <span class="p">}</span>
+     <span class="p">})</span>
+     <span class="o">.</span><span class="nf">disposed</span><span class="p">(</span><span class="nv">by</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">disposeBag</span><span class="p">)</span>
+ <span class="p">}</span>
+
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">setUpObservers</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment24MoviesListViewControllerC18showIndicatorAtTopyySbF"></a>
+                    <a name="//apple_ref/swift/Method/showIndicatorAtTop(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment24MoviesListViewControllerC18showIndicatorAtTopyySbF">showIndicatorAtTop(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>call this function to show/hide loader at the top for pagination</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showIndicatorAtTop</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment24MoviesListViewControllerC21showIndicatorAtBottomyySbF"></a>
+                    <a name="//apple_ref/swift/Method/showIndicatorAtBottom(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment24MoviesListViewControllerC21showIndicatorAtBottomyySbF">showIndicatorAtBottom(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>call this function to show/hide loader at the bottom for pagination</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showIndicatorAtBottom</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment24MoviesListViewControllerC23configActivityIndicator7spinnerySo010UIActivityjF0C_tF"></a>
+                    <a name="//apple_ref/swift/Method/configActivityIndicator(spinner:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment24MoviesListViewControllerC23configActivityIndicator7spinnerySo010UIActivityjF0C_tF">configActivityIndicator(spinner:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the properties for UIActivityIndicatorView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">configActivityIndicator</span><span class="p">(</span><span class="nv">spinner</span><span class="p">:</span> <span class="kt">UIActivityIndicatorView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment24MoviesListViewControllerC18setupPullToRefresh2onySo08UIScrollF0C_tF"></a>
+                    <a name="//apple_ref/swift/Method/setupPullToRefresh(on:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment24MoviesListViewControllerC18setupPullToRefresh2onySo08UIScrollF0C_tF">setupPullToRefresh(on:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets pull to refresh at top for the movies list.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setupPullToRefresh</span><span class="p">(</span><span class="n">on</span> <span class="nv">scrollView</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-07-02)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

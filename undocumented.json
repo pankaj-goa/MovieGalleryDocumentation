@@ -1,0 +1,845 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/InternetConnectivity.swift",
+      "line": 13,
+      "symbol": "ReachabilityStatusChangedNotification",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/InternetConnectivity.swift",
+      "line": 15,
+      "symbol": "ReachabilityType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/InternetConnectivity.swift",
+      "line": 27,
+      "symbol": "ReachabilityStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/InternetConnectivity.swift",
+      "line": 41,
+      "symbol": "Reach",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/InternetConnectivity.swift",
+      "line": 92,
+      "symbol": "ReachabilityStatus",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/RealmOptionals.swift",
+      "line": 17,
+      "symbol": "RealmInt.numeric",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/RealmOptionals.swift",
+      "line": 29,
+      "symbol": "RealmInt.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/RealmOptionals.swift",
+      "line": 33,
+      "symbol": "RealmInt.zeroOrValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/RealmOptionals.swift",
+      "line": 42,
+      "symbol": "ListGenres.genres",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/RealmOptionals.swift",
+      "line": 55,
+      "symbol": "ListGenres.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/RealmOptionals.swift",
+      "line": 65,
+      "symbol": "ListTrailer.trailer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Classes/RealmOptionals.swift",
+      "line": 78,
+      "symbol": "ListTrailer.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 16,
+      "symbol": "MovieDetailsViewController.containerStackView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 17,
+      "symbol": "MovieDetailsViewController.container1",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 18,
+      "symbol": "MovieDetailsViewController.container2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 19,
+      "symbol": "MovieDetailsViewController.buttonTopConstraint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 21,
+      "symbol": "MovieDetailsViewController.posterImageView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 22,
+      "symbol": "MovieDetailsViewController.movieTitleLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 23,
+      "symbol": "MovieDetailsViewController.watchTrailerButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 25,
+      "symbol": "MovieDetailsViewController.genrelabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 26,
+      "symbol": "MovieDetailsViewController.releaseDateLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 27,
+      "symbol": "MovieDetailsViewController.overViewLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 29,
+      "symbol": "MovieDetailsViewController.genresContainerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 30,
+      "symbol": "MovieDetailsViewController.releaseDateContainerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 31,
+      "symbol": "MovieDetailsViewController.overviewContainerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 33,
+      "symbol": "MovieDetailsViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 35,
+      "symbol": "MovieDetailsViewController.widthConstraint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 36,
+      "symbol": "MovieDetailsViewController.buttonTitleVerticalSpacingConstraint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 37,
+      "symbol": "MovieDetailsViewController.disposeBag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 39,
+      "symbol": "MovieDetailsViewController.movieId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 41,
+      "symbol": "MovieDetailsViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 51,
+      "symbol": "MovieDetailsViewController.setUpObservers()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 86,
+      "symbol": "MovieDetailsViewController.updatePageContents()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 154,
+      "symbol": "MovieDetailsViewController.didClickWatchTrailer(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 158,
+      "symbol": "MovieDetailsViewController.playMovieTrailer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MovieDetailsViewController.swift",
+      "line": 167,
+      "symbol": "MovieDetailsViewController.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 18,
+      "symbol": "MoviesListViewController.searchBarBottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 19,
+      "symbol": "MoviesListViewController.searchBar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 20,
+      "symbol": "MoviesListViewController.moviesTableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 21,
+      "symbol": "MoviesListViewController.internetStatusLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 23,
+      "symbol": "MoviesListViewController.disposeBag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 24,
+      "symbol": "MoviesListViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 26,
+      "symbol": "MoviesListViewController.footerIndicator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 27,
+      "symbol": "MoviesListViewController.headerIndicator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 29,
+      "symbol": "MoviesListViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 48,
+      "symbol": "MoviesListViewController.setupActivityLoadersInHeaderAndFooter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 76,
+      "symbol": "MoviesListViewController.setupTableView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 172,
+      "symbol": "MoviesListViewController.keyboardWillShow(notification:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 183,
+      "symbol": "MoviesListViewController.keyboardWillHide(notification:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 236,
+      "symbol": "MoviesListViewController.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 243,
+      "symbol": "MoviesListViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 247,
+      "symbol": "MoviesListViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 251,
+      "symbol": "MoviesListViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 257,
+      "symbol": "MoviesListViewController.tableView(_:willDisplay:forRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 271,
+      "symbol": "MoviesListViewController.tableView(_:didSelectRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 284,
+      "symbol": "MoviesListViewController.searchBar(_:textDidChange:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/MoviesListViewController.swift",
+      "line": 294,
+      "symbol": "MoviesListViewController.searchBarSearchButtonClicked(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/VideoPlayerViewController.swift",
+      "line": 12,
+      "symbol": "VideoPlayerViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Controllers/VideoPlayerViewController.swift",
+      "line": 36,
+      "symbol": "VideoPlayerViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Enums.swift",
+      "line": 13,
+      "symbol": "APIErrors.serverError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Enums.swift",
+      "line": 14,
+      "symbol": "APIErrors.errorStr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Enums.swift",
+      "line": 24,
+      "symbol": "PageError.pageTop",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Enums.swift",
+      "line": 25,
+      "symbol": "PageError.pageBottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Enums.swift",
+      "line": 26,
+      "symbol": "PageError.offlineMode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Enums.swift",
+      "line": 27,
+      "symbol": "PageError.msg",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Globals.swift",
+      "line": 11,
+      "symbol": "apiKey",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Globals.swift",
+      "line": 12,
+      "symbol": "baseUrl",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Globals.swift",
+      "line": 13,
+      "symbol": "posterBaseUrl",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Model/Movie.swift",
+      "line": 13,
+      "symbol": "MoviesAPIInterface",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Model/Movie.swift",
+      "line": 28,
+      "symbol": "Movie",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Model/Movie.swift",
+      "line": 51,
+      "symbol": "Genres",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/Model/Movie.swift",
+      "line": 61,
+      "symbol": "Trailer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/SceneDelegate.swift",
+      "line": 12,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/TableViewCells/MoviesTableViewCell.swift",
+      "line": 12,
+      "symbol": "MoviesTableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 16,
+      "symbol": "MoviesDetailsViewModel.apiCall",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 18,
+      "symbol": "MoviesDetailsViewModel.navigationTitleText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 20,
+      "symbol": "MoviesDetailsViewModel.disposeBag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 22,
+      "symbol": "MoviesDetailsViewModel.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 23,
+      "symbol": "MoviesDetailsViewModel.dataObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 27,
+      "symbol": "MoviesDetailsViewModel.dataSource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 31,
+      "symbol": "MoviesDetailsViewModel.trailerData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 32,
+      "symbol": "MoviesDetailsViewModel.trailerDataObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 36,
+      "symbol": "MoviesDetailsViewModel.trailerDataSource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 40,
+      "symbol": "MoviesDetailsViewModel.showSnackBar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 41,
+      "symbol": "MoviesDetailsViewModel.showSnackBarObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 45,
+      "symbol": "MoviesDetailsViewModel.isLoading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 46,
+      "symbol": "MoviesDetailsViewModel.isLoadingObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 50,
+      "symbol": "MoviesDetailsViewModel.movieTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 59,
+      "symbol": "MoviesDetailsViewModel.posterPath",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 68,
+      "symbol": "MoviesDetailsViewModel.overviewTxt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 77,
+      "symbol": "MoviesDetailsViewModel.releaseDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 86,
+      "symbol": "MoviesDetailsViewModel.genres",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MovieDetailsViewModel.swift",
+      "line": 96,
+      "symbol": "MoviesDetailsViewModel.youtubeId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 18,
+      "symbol": "MoviesListViewModel.apiCall",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 19,
+      "symbol": "MoviesListViewModel.topPageNo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 20,
+      "symbol": "MoviesListViewModel.bottomPageNo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 22,
+      "symbol": "MoviesListViewModel.navigationTitleText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 23,
+      "symbol": "MoviesListViewModel.moviesCellIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 24,
+      "symbol": "MoviesListViewModel.searchBarPlaceholderText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 26,
+      "symbol": "MoviesListViewModel.disposeBag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 28,
+      "symbol": "MoviesListViewModel.interfaceAPIMovies",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 30,
+      "symbol": "MoviesListViewModel.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 31,
+      "symbol": "MoviesListViewModel.dataObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 34,
+      "symbol": "MoviesListViewModel.dataSource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 37,
+      "symbol": "MoviesListViewModel.searchData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 38,
+      "symbol": "MoviesListViewModel.searchDataObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 41,
+      "symbol": "MoviesListViewModel.searchDataSource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 44,
+      "symbol": "MoviesListViewModel.isLoading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 45,
+      "symbol": "MoviesListViewModel.isLoadingObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 48,
+      "symbol": "MoviesListViewModel.showTopLoader",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 49,
+      "symbol": "MoviesListViewModel.showTopLoaderObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 52,
+      "symbol": "MoviesListViewModel.showBottomLoader",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 53,
+      "symbol": "MoviesListViewModel.showBottomLoaderObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 56,
+      "symbol": "MoviesListViewModel.didFinishTopPagination",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 57,
+      "symbol": "MoviesListViewModel.didFinishTopPaginationObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 60,
+      "symbol": "MoviesListViewModel.didFinishBottomPagination",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 61,
+      "symbol": "MoviesListViewModel.didFinishBottomPaginationObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 64,
+      "symbol": "MoviesListViewModel.showSnackBar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pankaj/Desktop/MovieGalleryAssignment/MovieGalleryAssignment/View Model/MoviesListViewModel.swift",
+      "line": 65,
+      "symbol": "MoviesListViewModel.showSnackBarObservable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/pankaj/Desktop/MovieGalleryAssignment"
+}

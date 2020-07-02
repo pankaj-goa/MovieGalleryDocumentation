@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MoviesListViewModel Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/MoviesListViewModel" class="dashAnchor"></a>
+    <a title="MoviesListViewModel Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">MovieGalleryAssignment Docs</a> (27% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">MovieGalleryAssignment Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        MoviesListViewModel Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ApiClass.html">ApiClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListGenres.html">ListGenres</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListTrailer.html">ListTrailer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MovieDetailsViewController.html">MovieDetailsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MoviesDetailsViewModel.html">MoviesDetailsViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MoviesListViewController.html">MoviesListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MoviesListViewModel.html">MoviesListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RealmInt.html">RealmInt</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:22MovieGalleryAssignment9APIErrorsO">APIErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:22MovieGalleryAssignment9PageErrorO">PageError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISearchBar.html">UISearchBar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>MoviesListViewModel</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">MoviesListViewModel</span></code></pre>
+
+                </div>
+              </div>
+            <p>View model class for MoviesListViewController UIViewController</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment19MoviesListViewModelC05fetchD06pageNoySi_tF"></a>
+                    <a name="//apple_ref/swift/Method/fetchMovies(pageNo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment19MoviesListViewModelC05fetchD06pageNoySi_tF">fetchMovies(pageNo:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this function to fetch list of movies from server for a page and insert or append data. ie top or bottom also sets the observable values for subscribers and also checks for offline data incase of not connection.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+<pre class="highlight swift"><code> <span class="nf">fetchMovies</span><span class="p">(</span><span class="nv">pageNo</span><span class="p">:</span> <span class="mi">1</span><span class="p">)</span>
+
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">fetchMovies</span><span class="p">(</span><span class="nv">pageNo</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pageNo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Pass your page no for fetching movies in Int</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment19MoviesListViewModelC37shouldFetchDataAndShowLoaderForPageNo33_3B86AD711C749E63F60696C63539EC61LLySbSiF"></a>
+                    <a name="//apple_ref/swift/Method/shouldFetchDataAndShowLoaderForPageNo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment19MoviesListViewModelC37shouldFetchDataAndShowLoaderForPageNo33_3B86AD711C749E63F60696C63539EC61LLySbSiF">shouldFetchDataAndShowLoaderForPageNo(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this function to show the top, bottom or svprogress loader or return offline data incase of no internet and has offline data in realm or continue with server request incase of no offline data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">shouldFetchDataAndShowLoaderForPageNo</span><span class="p">(</span><span class="n">_</span> <span class="nv">pageNo</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment19MoviesListViewModelC23checkIfMoreRecordsExits33_3B86AD711C749E63F60696C63539EC61LL14movieInterface6pageNoSbAA0D12APIInterfaceC_SitF"></a>
+                    <a name="//apple_ref/swift/Method/checkIfMoreRecordsExits(movieInterface:pageNo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment19MoviesListViewModelC23checkIfMoreRecordsExits33_3B86AD711C749E63F60696C63539EC61LL14movieInterface6pageNoSbAA0D12APIInterfaceC_SitF">checkIfMoreRecordsExits(movieInterface:<wbr>pageNo:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this function to check that pageNo is not the last page or 1st page, returns true if more records can be fetched else shows snacbar and returns false.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">checkIfMoreRecordsExits</span><span class="p">(</span><span class="nv">movieInterface</span><span class="p">:</span> <span class="kt">MoviesAPIInterface</span><span class="p">,</span> <span class="nv">pageNo</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment19MoviesListViewModelC14checkIfOffline33_3B86AD711C749E63F60696C63539EC61LLSayAA0A0CGSgyF"></a>
+                    <a name="//apple_ref/swift/Method/checkIfOffline()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment19MoviesListViewModelC14checkIfOffline33_3B86AD711C749E63F60696C63539EC61LLSayAA0A0CGSgyF">checkIfOffline()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check internet connectivity, returns movies from realm db if exists and no internet, else returns nil</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">checkIfOffline</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Movie</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment19MoviesListViewModelC15resetDataSourceyyF"></a>
+                    <a name="//apple_ref/swift/Method/resetDataSource()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment19MoviesListViewModelC15resetDataSourceyyF">resetDataSource()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this function to remove all the records from the datasource.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">resetDataSource</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment19MoviesListViewModelC011deleteRealmA4DatayyF"></a>
+                    <a name="//apple_ref/swift/Method/deleteRealmMovieData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment19MoviesListViewModelC011deleteRealmA4DatayyF">deleteRealmMovieData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this function to remove all the records from the realm database.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">deleteRealmMovieData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment19MoviesListViewModelC03addA16ResultsToRealmDB33_3B86AD711C749E63F60696C63539EC61LL6moviesy0K5Swift0E0CyAA0A0CG_tF"></a>
+                    <a name="//apple_ref/swift/Method/addMovieResultsToRealmDB(movies:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment19MoviesListViewModelC03addA16ResultsToRealmDB33_3B86AD711C749E63F60696C63539EC61LL6moviesy0K5Swift0E0CyAA0A0CG_tF">addMovieResultsToRealmDB(movies:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this function to add data to the realm db.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">addMovieResultsToRealmDB</span><span class="p">(</span><span class="nv">movies</span><span class="p">:</span> <span class="kt">List</span><span class="o">&lt;</span><span class="kt">Movie</span><span class="o">&gt;</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>movies</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Pass list of movies to be added to the realm database.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22MovieGalleryAssignment19MoviesListViewModelC06searchD7ByQueryyySSF"></a>
+                    <a name="//apple_ref/swift/Method/searchMoviesByQuery(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22MovieGalleryAssignment19MoviesListViewModelC06searchD7ByQueryyySSF">searchMoviesByQuery(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this function to filter the datasource.movies array and set searchArray from the search string with prefix characters in datasource.movies</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">searchMoviesByQuery</span><span class="p">(</span><span class="n">_</span> <span class="nv">search</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>search</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Pass search keyword.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-07-02)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
